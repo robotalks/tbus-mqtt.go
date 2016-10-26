@@ -1,0 +1,8 @@
+bin/
+gen/
+node_modules/
+vendor/*
+!vendor/manifest
+.hmake
+.hmakerc
+*.log

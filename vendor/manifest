@@ -1,0 +1,51 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/eclipse/paho.mqtt.golang",
+			"repository": "https://github.com/eclipse/paho.mqtt.golang",
+			"revision": "13afcbe8e41508479762a90e9242577210c2ca8d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "98fa357170587e470c5f27d3c3ea0947b71eb455",
+			"branch": "master",
+			"path": "/proto"
+		},
+		{
+			"importpath": "github.com/golang/protobuf/ptypes/empty",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "98fa357170587e470c5f27d3c3ea0947b71eb455",
+			"branch": "master",
+			"path": "/ptypes/empty"
+		},
+		{
+			"importpath": "github.com/robotalks/tbus/go/tbus",
+			"repository": "https://github.com/robotalks/tbus",
+			"revision": "4253a799f283f25f684fc44091b8189903324c14",
+			"branch": "master",
+			"path": "/go/tbus"
+		},
+		{
+			"importpath": "github.com/ventu-io/go-shortid",
+			"repository": "https://github.com/ventu-io/go-shortid",
+			"revision": "f3377b9160ef91541d29453587d9430f138a0e76",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/willf/bitset",
+			"repository": "https://github.com/willf/bitset",
+			"revision": "24b253213c7bdcdd6cde7d6c73760eb16d98551c",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/net/websocket",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "65dfc08770ce66f74becfdff5f8ab01caef4e946",
+			"branch": "master",
+			"path": "/websocket"
+		}
+	]
+}

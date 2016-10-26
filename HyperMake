@@ -1,0 +1,27 @@
+---
+format: hypermake.v0
+
+name: tbus-mqtt
+description: MQTT connector for TBus
+
+targets:
+  vendor:
+    description: fetch dependencies for tbus-mqtt Go pkg
+    watches:
+      - vendor/manifest
+    cmds:
+      - gvt restore
+
+  test:
+    description: test go code
+    after:
+      - vendor
+    watches:
+      - '**/**/*.go'
+    cmds:
+      - go test -v ./
+
+settings:
+  docker:
+    image: 'robotalks/tbus-toolchain:latest'
+    src-volume: /go/src/github.com/robotalks/tbus-mqtt.go
